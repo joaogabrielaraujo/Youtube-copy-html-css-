@@ -1,0 +1,87 @@
+.sidebar{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  background-color: white;
+  width: 72px;
+  z-index: 200;
+  padding-top: 5px;
+}
+
+.home-icon{
+  height:25px ;
+}
+.home-button{
+  background-color: white;
+  border: none;
+  height: 70px;
+  width: 70px;
+}
+.home-button:hover{
+  background-color: lightgray;
+}
+.explore-icon{
+  height:25px ;
+}
+.explore-button{
+  background-color: white;
+  border: none;
+  height: 70px;
+  width: 70px;
+}
+.explore-button:hover{
+  background-color: lightgray;
+}
+.subscription-icon{
+  height:25px ;
+}
+.subscription-button{
+  background-color: white;
+  border: none;
+  height: 70px;
+  width: 70px;
+}
+.subscription-button:hover{
+  background-color: lightgray;
+}
+.original-icon{
+  height:25px ;
+}
+.original-button{
+  background-color: white;
+  border: none;
+  height: 70px;
+  width: 70px;
+}
+.original-button:hover{
+  background-color: lightgray;
+}
+.music-icon{
+  height:25px ;
+}
+.music-button{
+  background-color: white;
+  border: none;
+  height: 70px;
+  width: 70px;
+}
+.music-button:hover{
+  background-color: lightgray;
+}
+.library-icon{
+  height:25px ;
+}
+.library-button{
+  background-color: white;
+  border: none;
+  height: 70px;
+  width: 70px;
+}
+.library-button:hover{
+  background-color: lightgray;
+}
+
+.font-sidebar{
+  font-size: 10px;
+}

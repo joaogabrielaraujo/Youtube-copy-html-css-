@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>
+      Youtube Clone
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="hover images/hamburger-menu.svg">
+        <img class ='youtube-logo'src="hover images/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="searchbar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="hover images/search.svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img  class="voice-search-icon" src="hover images/voice-search-icon.svg">
+          <div class="tooltip">Voice Search</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <img class="upload-icon" src="hover images/upload.svg">
+        <img class="app-icon" src="hover images/youtube-apps.svg">
+        <img class="notifications-icon" src="hover images/notifications.svg">
+        <a href="https://github.com/joaogabrielaraujo">
+          <img class="mini-icon" src="channel-pictures/my-channel.jpg">
+        </a>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <button class="home-button">
+        <img class="home-icon" src="sidebar/home.svg">
+        <p class="font-sidebar">Home</p>
+      </button>
+      <button class="explore-button">
+        <img class="explore-icon" src="sidebar/explore.svg">
+        <p class="font-sidebar">Explore</p>
+      </button>
+      <button class="subscription-button">
+        <img class="subscription-icon" src="sidebar/subscriptions.svg">
+        <p class="font-sidebar">Subscriptions</p>
+      </button>
+      <button class="original-button">
+        <img class="original-icon" src="sidebar/originals.svg">
+        <p class="font-sidebar">Originals</p>
+      </button>
+      <button class="music-button">
+        <img class="music-icon" src="sidebar/youtube-music.svg">
+        <p class="font-sidebar">Youtube Music</p>
+      </button>
+      <button class="library-button">
+        <img class="library-icon" src="sidebar/library.svg">
+        <p class="font-sidebar">Library</p>
+      </button>
+    </div>
+
+    <div class="video-grid">
+
+      <div class="div-video">
+        <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY&ab_channel=60Minutes">
+          <div class="thumbnail-row">
+            <img class='thumbnail' src="thumbnails/thumbnail-1.webp">
+            <div class="video-time">14:20</div>
+          </div>
+        </a>
+        <div class="video-info-grid">
+          <div >
+            <img class= 'channel-image'src="channel-pictures/channel-1.jpeg">
+          </div>
+          <div >
+            <p class="video-title">
+              Talking Tech and AI with Google CEO Sundar Pichai!
+            </p>
+      
+            <p class="video-author">
+             Marques Brownlee
+            </p>
+      
+            <p class="video-stats">
+              3.4M views &#183; 6 months ago
+            </p>
+          </div>        
+        </div>
+      </div>
+  
+      <div class="div-video">
+        <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk&ab_channel=Markiplier">
+          <div class="thumbnail-row">
+            <img class='thumbnail' src="thumbnails/thumbnail-2.webp">
+            <div class="video-time"> 08:12</div>
+          </div>
+        </a>
+        <div class="video-info-grid">
+          <div>
+            <img class="channel-image" src='channel-pictures/channel-2.jpeg'>
+          </div>
+          <div >
+            <p class="video-title">
+              Try Not To Laugh Challenge #9
+            </p>
+            <p class="video-author">
+              Markiplier
+            </p>
+            <p class="video-stats">
+              19M views &#183; 4 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="div-video">
+        <a href="https://www.youtube.com/watch?v=FgjPQQeTh1w&ab_channel=SSSniperWolf">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+            <div class="video-time"> 9:13</div>
+          </div>
+        </a>
+        <div class="video-info-grid">
+          <div class="channel-pictures">
+            <img class="channel-image" src="channel-pictures/channel-3.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Crazy Tik Toks Taken Moments Before DISASTER
+            </p>
+            <p class="video-author">
+              SSSniperWolf
+            </p>
+            <p class="video-stats">
+              12M views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="div-video">
+        <a href="https://www.youtube.com/watch?v=094y1Z2wpJg&ab_channel=Veritasium">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+            <div class="video-time"> 22:09</div>
+          </div>
+        </a>
+        <div class="video-info-grid">
+          <div class="thum">
+            <img class="channel-image" src='channel-pictures/channel-4.jpeg'>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              The Simplest Math Problem No One Can Solve - Collatz Conjecture
+            </p>
+            <p class="video-author">
+              Veritasium
+            </p>
+            <p class="video-stats">
+              18M views &#183; 4 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="div-video">
+        <a href="https://www.youtube.com/watch?v=86CQq3pKSUw&ab_channel=CSDojo">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+            <div class="video-time"> 11:17</div>
+          </div>
+        </a>
+        <div class="video-info-grid">
+          <div class="channel-pictures">
+            <img class="channel-image" src='channel-pictures/channel-5.jpeg'>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Kadane's Algorithm to Maximum Sum Subarray Problem
+            </p>
+            <p class="video-author">
+              CS Dojo
+            </p>
+            <p, class="video-stats">
+              519K views &#183; 5 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="div-video">
+        <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg&ab_channel=MrBeast">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+            <div class="video-time"> 19:59</div>
+          </div>
+        </a>
+        <div class="video-info-grid">
+          <div class="channel-pictures">
+            <img class="channel-image" src='channel-pictures/channel-6.jpeg'>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Anything You Can Fit In The Circle I’ll Pay For
+            </p>
+            <p class="video-author">
+              MrBeast
+            </p>
+            <p class="video-stats">
+              18M views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="div-video">
+        <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc&t=18449s&ab_channel=SuperSimpleDev">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-7.jpg">
+            <div class="video-time"> 6:31:24</div>
+          </div>
+        </a>
+        <div class="video-info-grid">
+          <div class="channel-pictures">
+            <img class="channel-image" src="hover images/my-channel.jpeg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              HTML & CSS Full Course - Beginner to Pro
+            </p>
+            <p class="video-author">
+              SuperSimpleDev
+            </p>
+            <p class="video-stats">
+              7.9M views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="div-video">
+        <a href="https://www.youtube.com/watch?v=lfmg-EJ8gm4&t=300s&ab_channel=BroCode">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-8.jpg">
+            <div class="video-time"> 12:00:00</div>
+          </div>
+        </a>
+        <div class="video-info-grid">
+          <div class="channel-pictures">
+            <img class="channel-image" src="channel-pictures/brocode.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              JavaScript Full Course for free 🌐 (2024)
+            </p>
+            <p class="video-author">
+              Bro Code
+            </p>
+            <p class="video-stats">
+              77 mil views &#183; 4 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="div-video">
+        <a href="https://www.youtube.com/watch?v=c2M-rlkkT5o&t=8s&ab_channel=BroCode">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-9.jpg">
+            <div class="video-time"> 01:00:00</div>
+          </div>
+        </a>
+        <div class="video-info-grid">
+          <div class="channel-pictures">
+            <img class="channel-image" src="channel-pictures/brocode.jpg">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Learn MongoDB in 1 Hour 🍃 (2023)
+            </p>
+            <p class="video-author">
+              Bro Code
+            </p>
+            <p class="video-stats">
+              639 mil views &#183; 8 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="div-video">
+        <a href="https://www.youtube.com/watch?v=PHklnuOvxfg&ab_channel=WowAnnie">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-10.jpg">
+            <div class="video-time"> 01:40:59</div>
+          </div>
+        </a>
+        <div class="video-info-grid">
+          <div class="channel-pictures">
+            <img class="channel-image" src='channel-pictures/wow.jpg'>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              studio ghibli playlist (relax, sleep, study)🌱
+            </p>
+            <p class="video-author">
+              Wow Annie
+            </p>
+            <p class="video-stats">
+              2.2M views &#183; 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="div-video">
+        <a href="https://www.youtube.com/watch?v=ixmxOlcrlUc&ab_channel=THENX">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-11.webp">
+            <div class="video-time"> 13:17</div>
+          </div>
+        </a>
+        <div class="video-info-grid">
+          <div class="channel-pictures">
+            <img class="channel-image" src='channel-pictures/channel-9.jpeg'>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              The SECRET to Super Human STRENGTH
+            </p>
+            <p class="video-author">
+              ThenX
+            </p>
+            <p class="video-stats">
+              20M views &#183; 3 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="div-video">
+        <a href="https://www.youtube.com/watch?v=zZ6vybT1HQs&ab_channel=BroCode">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-12.jpg">
+            <div class="video-time"> 04:00:00</div>
+          </div>
+        </a>
+        <div class="video-info-grid">
+          <div class="channel-pictures">
+            <img class="channel-image" src='channel-pictures/brocode.jpg'>
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              PHP Full Course for non-haters 🐘(2023)
+            </p>
+            <p class="video-author">
+              Bro Code
+            </p>
+            <p class="video-stats">
+              875 mil views &#183; 9 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+                 
+  </body>
+</html>
